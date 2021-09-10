@@ -248,11 +248,17 @@ set smartcase       " Do smart case matching
 "set incsearch      " Incremental search
 "set autowrite      " Automatically save before commands like :next and :make
 "set hidden     " Hide buffers when they are abandoned
-"set mouse=a        " Enable mouse usage (all modes)
+set mouse=a        " Enable mouse usage (all modes)
 
 "   additions to base file
 set nu          " Enable line numbers
 syntax on       " enable syntax highlighting
+
+"   key mapping
+"map j gj
+"map k gk
+"   dictionary settings
+set thesaurus+=/home/john/Downloads/thesaurus.txt
 "   spacing
 set tabstop=4       " how many spaces a tab has
 set shiftwidth=4    " how many spaces a shift moves
