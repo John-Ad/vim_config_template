@@ -12,6 +12,8 @@ Plug 'wdhg/dragon-energy'
 
 " file manager plugin
 Plug 'preservim/nerdtree'
+" code comment plugin
+Plug 'preservim/nerdcommenter'
 
 " auto format plugin
 Plug 'Chiel92/vim-autoformat'
@@ -24,6 +26,10 @@ Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
 Plug 'ianks/vim-tsx'              " tsx syntax support
 Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+
+" julia plugins
+Plug 'JuliaEditorSupport/julia-vim'
+
 " ------END OF PLUGINS------------------------------
 
 " All of your Plugs must be added before the following line
@@ -257,6 +263,8 @@ syntax on       " enable syntax highlighting
 "   key mapping
 "map j gj
 "map k gk
+"   code folding settings
+set foldmethod=indent
 "   dictionary settings
 set thesaurus+=/home/john/Downloads/thesaurus.txt
 "   spacing
